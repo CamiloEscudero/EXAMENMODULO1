@@ -1,5 +1,5 @@
 package unibe.edu.ec.examen;
 
-public class Examen1 {
+public class Triangle {
 
 }
