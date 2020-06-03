@@ -11,9 +11,7 @@ public class TriangleTest {
 	@Before
 	public void before() {
 		this.triangle= new Triangle(5.5);
-		
-		
-
+	
 	}
 
 	@Test
