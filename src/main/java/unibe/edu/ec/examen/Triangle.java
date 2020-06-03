@@ -26,4 +26,8 @@ public class Triangle {
 		return area;
     }
 	
+    public double calculateVolumeofapyramid(double height,double side) {
+    	double volume = (1.0/3.0)*side*side*height;
+    	return volume;
+    }
 }

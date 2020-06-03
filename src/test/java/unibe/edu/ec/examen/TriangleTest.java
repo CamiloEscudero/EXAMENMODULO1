@@ -26,5 +26,9 @@ public class TriangleTest {
 		assertEquals(16.5, triangle.calculateArea(6.0), 0.10);
 	}
 	
+	@Test
+	public void testCalculateVolumeofapyramid() {
+		assertEquals(12.5,triangle.calculateVolumeofapyramid(6.0,2.5), 0.10);
+	}
 
 }
