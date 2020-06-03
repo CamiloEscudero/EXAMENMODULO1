@@ -3,7 +3,7 @@
   <groupId>unibe.edu.ec</groupId>
   <artifactId>examen</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>examen</name>
+  <name>ExamenModulo1</name>
   <description>examen modulo 1</description>
   <packaging>jar</packaging>
 
