@@ -12,12 +12,19 @@ public class TriangleTest {
 	public void before() {
 		this.triangle= new Triangle(5.5);
 		
+		
 
 	}
 
 	@Test
 	public void testCalculatePerimeter() {
-		assertEquals(16.5, triangle.calculatePerimeter(), 0.10);;
+		assertEquals(16.5, triangle.calculatePerimeter(), 0.10);
 	}
+	
+	@Test
+	public void testCalculateArea() {
+		assertEquals(16.5, triangle.calculateArea(6.0), 0.10);
+	}
+	
 
 }

@@ -20,5 +20,10 @@ public class Triangle {
     	double perimeter = side+side+side;
     	return perimeter;
     }
+    
+    public double calculateArea(double height) {
+    	double area = side*height/2;
+		return area;
+    }
 	
 }
