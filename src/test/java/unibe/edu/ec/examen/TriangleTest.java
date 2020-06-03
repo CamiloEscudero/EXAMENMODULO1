@@ -9,7 +9,7 @@ public class TriangleTest {
 	private Triangle triangle;
 	
 	@Before
-	private void before() {
+	public void before() {
 		this.triangle= new Triangle(5.5);
 		
 
